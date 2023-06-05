@@ -1,0 +1,19 @@
+.photo {
+    position: relative;
+    color: black;
+    transition: transform 0.25s;
+}
+
+.textp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 2em;
+    font-family: 'Merriweather', serif;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+}
